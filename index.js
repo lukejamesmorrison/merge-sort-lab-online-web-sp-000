@@ -28,5 +28,5 @@ function merge(firstArray, secondArray)
 
   return sorted.concat(firstArray).concat(secondArray);
 
-  
+
 }
