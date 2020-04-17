@@ -10,9 +10,9 @@ function findMinAndRemoveSorted(array)
 
   for(let i = 0; i < array.length; i++)
   {
-    if(array[0] < min)
+    if(array[i] < min)
     {
-      min = array[0];
+      min = array[i];
       minIndex = i;
     };
     array.splice(minIndex, 1);
