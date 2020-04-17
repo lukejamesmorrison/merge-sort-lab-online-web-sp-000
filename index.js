@@ -30,8 +30,6 @@ function merge(firstArray, secondArray)
     sorted.push(currentMin);
   }
 
-  console.log(sorted, firstArray, secondArray);
-
   return sorted.concat(firstArray).concat(secondArray);
 
 
