@@ -21,7 +21,7 @@ function merge(firstArray, secondArray)
 
   while(firstArray.length != 0 && secondArray != 0)
   {
-    if(firstArray[0] < secondArray[0] || firstArray[0] === secondArray[0])
+    if(firstArray[0] <== secondArray[0])
     {
       var currentMin = findMinAndRemoveSorted(firstArray);
     } else {
