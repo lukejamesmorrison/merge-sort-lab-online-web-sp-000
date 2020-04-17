@@ -12,5 +12,8 @@ function findMinAndRemoveSorted(array)
 
 function merge(firstArray, secondArray)
 {
+  let minFirstArray = firstArray[0];
+  let minSecondArray = secondArray[0];
 
+  
 }
