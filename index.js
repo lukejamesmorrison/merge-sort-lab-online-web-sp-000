@@ -18,6 +18,7 @@ console.log(merge(
 function merge(firstArray, secondArray)
 {
   let sorted = [];
+  let currentMin = firstArray[0];
 
   while(firstArray.length != 0 && secondArray != 0)
   {
