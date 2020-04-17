@@ -10,6 +10,11 @@ function findMinAndRemoveSorted(array)
   return min;
 }
 
+console.log(merge(
+  [1,2,3,8],
+  [6,7,8,9]
+));
+
 function merge(firstArray, secondArray)
 {
   let sorted = [];
