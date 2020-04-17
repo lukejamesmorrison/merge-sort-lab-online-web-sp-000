@@ -10,10 +10,10 @@ function findMinAndRemoveSorted(array)
   return min;
 }
 
-console.log(merge(
-  [1,2,3,8],
-  [6,7,8,9]
-));
+// console.log(merge(
+//   [1,2,3,8],
+//   [6,7,8,9]
+// ));
 
 function merge(firstArray, secondArray)
 {
@@ -31,4 +31,12 @@ function merge(firstArray, secondArray)
     sorted.push(currentMin);
   };
   return sorted.concat(firstArray).concat(secondArray);
+}
+
+
+function mergeSort(array)
+{
+  let mid = array.length/2;
+  let firstHalf = array.slice(0, mid);
+  let secondHalf = array.slice(mid, array.length);
 }
