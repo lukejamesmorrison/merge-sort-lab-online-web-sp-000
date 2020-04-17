@@ -30,6 +30,5 @@ function merge(firstArray, secondArray)
     };
     sorted.push(currentMin);
   };
-
   return sorted.concat(firstArray).concat(secondArray);
 }
