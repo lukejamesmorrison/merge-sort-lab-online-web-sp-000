@@ -21,7 +21,7 @@ function merge(firstArray, secondArray)
       let currentMin = findMinAndRemoveSorted(firstArray);
     } else {
       let currentMin = findMinAndRemoveSorted(secondArray);
-    }
+    };
     sorted.push(currentMin);
     merge(firstArray, secondArray);
   }
