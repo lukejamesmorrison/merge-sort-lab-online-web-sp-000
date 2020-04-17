@@ -41,14 +41,11 @@ function mergeSort(array)
   let firstHalf = array.slice(0, mid);
   let secondHalf = array.slice(mid, array.length);
 
+  console.log(firstHalf, secondHalf);
+
   if(array.length < 2){
      return array
    } else {
      merge(mergeSort(firstHalf), mergeSort(secondHalf))
-   }
-
-  // while(firstHalf.length != 0 && secondHalf.length != 0)
-  // {
-  //
-  // }
+   };
 }
