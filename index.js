@@ -1,7 +1,7 @@
 
 let array = [2,4,5,1];
 
-findMinAndRemoveSorted(array);
+console.log(findMinAndRemoveSorted(array));
 
 function findMinAndRemoveSorted(array)
 {
