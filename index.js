@@ -33,7 +33,7 @@ function merge(firstArray, secondArray)
     merge(firstArray, secondArray);
   }
 
-  console.log(sorted, firstArray, SecondArray);
+  console.log(sorted, firstArray, econdArray);
 
   return sorted.concat(firstArray).concat(secondArray);
 
