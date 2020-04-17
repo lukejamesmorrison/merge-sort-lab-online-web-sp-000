@@ -12,8 +12,21 @@ function findMinAndRemoveSorted(array)
 
 function merge(firstArray, secondArray)
 {
-  let minFirstArray = firstArray[0];
-  let minSecondArray = secondArray[0];
+  let sorted = [];
+
+  while(firstArray.length != 0 && secondArray != 0)
+  {
+    if(firstArray[0] < secondArray[0] || firstArray[0] === secondArray[0])
+    {
+      let currentMin = findMinAndRemoveSorted(firstArray);
+    } else {
+      let currentMin = findMinAndRemoveSorted(secondArray);
+    }
+    sorted.push(currentMin);
+    merge(firstArray, secondArray);
+  }
+
+  return sorted.concat(firstArray).concat(secondArray);
 
   
 }
