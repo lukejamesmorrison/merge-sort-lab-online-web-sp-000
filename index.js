@@ -24,10 +24,8 @@ function merge(firstArray, secondArray)
     if(firstArray[0] < secondArray[0] || firstArray[0] === secondArray[0])
     {
       var currentMin = findMinAndRemoveSorted(firstArray);
-      console.log(currentMin);
     } else {
       var currentMin = findMinAndRemoveSorted(secondArray);
-      console.log(currentMin);
     };
     sorted.push(currentMin);
   }
