@@ -1,5 +1,5 @@
 
-let array = [2,4,5,1];
+let array = [2,3,4];
 
 console.log(findMinAndRemoveSorted(array));
 
