@@ -29,9 +29,7 @@ function merge(firstArray, secondArray)
       currentMin = findMinAndRemoveSorted(secondArray);
     };
     sorted.push(currentMin);
-  }
+  };
 
   return sorted.concat(firstArray).concat(secondArray);
-
-
 }
